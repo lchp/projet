@@ -1,56 +1,129 @@
-.photo profil{
-    text-align:center;
-    border-radius:50px;
+*{
+font-family:sans-serif;"Caviar dreams";
+    src:url('fonts/CaviarDreams.ttf');}
+
+header{
+
+margin-left: 20px;
+margin-right: 20px;
+text-align: center;
+font-size: 23px; 
+font-family:arial; 
+background-color: grey;
+color: white;
+transition:background-color 3s;
+margin-left: 100px;
+margin-right:100px;
+width: 1050px;
 }
 
 
-
-
-
-
-h1, h2, nav {
-    font-family:'Poiret One', cursive;
+h1{
+    color:black;
+    font-size:20px;    
+    margin-left:200px;
+    margin-bottom:20px;
     
 }
 
-header li {
-    display:inline-block;
-    width:20%;
-    text-align:center;
+
+h2{
+    color:black;
+    font-size:23px;    
+    padding-left:600px;
     
 }
 
-header a:hover{
-    background-color:rgba(255,255,255,0.2currentColor);
-    padding:10px;
-    border-radius:5px;
-    
-}
-    
 
-.cercle-competence{
-     width:150px;
-     height:150px;
-     background-color:lightblue;     
-     border-radius:50%.
-     margin:50px;
-     overflow:hidden;
-     position:absolute;
-     bottom:0;
-}
-    
-    .cercle-competence-niveau{
-        width:100%;
-        background-color:blue;
-        height:0%;
-        position:absolute;
-        bottom:0;
-        transition:all is ease;
-        
+
+
+nav ul {
+display: flex;
+text-decoration: none;
 }
 
-.cercle-competence:hover .cercle-competence-niveau{
-    height:75%;
+nav li{
+padding: 34px 34px 30px 30px;
+width: 100%;
+list-style-type:none;
+}
+
+
+body 
+{
+color: black; 
+margin: 0;
+width: 100%;
+} 
+
+img {
+    margin-top: 50px;
+    margin-bottom:50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logiciel img{
+    height:50px;
+    display: inline-block;
+    margin-bottom:100px;
+
+}
+       
+
+main ul {
+    margin: 0;
+    margin-bottom:20px;
+    padding:0;
+}
+
+main{
+    width:500px;
+    margin-top: 50px;
+    margin-bottom:50px;
+
+}
+
+main li {
+ text-align:left;
+}
+
+
+
+a {
+    text-decoration:none;
+    color: white;
+   }
+ 
+
+a:hover {color: black; 
+        background-color: white;}
+header:hover {  background-color: white;
+                }
+
+
+.cv{
+background-color:white;
+    width: 1050px;
+    display: block;
+    margin-left: 100px;
+    margin-right:100px;
+    padding-left:300px;
+}
+
+
+.blocindex{
+background-color:grey;
+    width: 1050px;
+    display: block;
+    margin-left: 100px;
+    margin-right:100px;
+    text-align:left;
+}
+
+footer{
+    padding-top:40px;
+    text-align:right;
     
 }
-     
